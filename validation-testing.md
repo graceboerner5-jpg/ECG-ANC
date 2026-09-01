@@ -10,7 +10,25 @@ nav_order: 5
 
 ## (i) Hardware & Circuit Configuration
 
-A bioamplifier circuit and Arduino Uno were borrowed from the Georgia Tech Library for obtaining the experimental ECG and sEMG signals. 
+A bioamplifier circuit and Arduino Uno were borrowed from the Georgia Tech Library for obtaining the experimental ECG and sEMG signals. The board provided 5V power and analog-to-digital conversion at 1200 Hz. Electrode connections were made using alligator clips with Bio(0)- and Bio(0)+ carrying the ECG signal and Bio(1)- and Bio(1)+ carrying the sEMG reference signal. The two channels simultaneously recorded both signals allowing for adaptive noise cancellation. 
+
+[images of schematic and circuit]
+Schematic provided by Georgia Tech BMED 3110. Circuit populated and configured by Grace Boerner.
+
+**AD623 Instrumentation Amplifier - Stage (1)**
+The AD623 amplifies the difference between the two input electrodes and uses common-mode reject to cancel any signals common to both such as a powerline interference. This common-mode rejection is the same principle as what is used in bipolar pacemaker leads.
+
+**Gain Stage - Stage (0)**
+The gain stage is set by the 100kOhm potentiometer which amplifies approximately 3 times since ECG signals at the surface are typically relatively low voltage.
+
+**High Pass Filter - Stages (3) and (4)**
+The high pass filter removes any low voltage disturbances such as breathing or electrode movement. This is crucial since any drift could reduce the accuracy of the adaptive noise cancellation filter.
+
+**Low Pass Filter - Stage (5)**
+This stage allows the two channels to split. LP-ECG limits the ECG signal to the standard cardiac band while LP-EMG keeps the higher frequencies to determine the muscle artifact.
+
+**Virtual Ground - Stages (8) and (9)**
+
 
 ## (ii) Electrode Placement
 
