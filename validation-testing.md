@@ -34,6 +34,12 @@ These stages use a voltage divider to set a baseline for the signal. This moves 
 This final stage buffers the signal for the last time and outputs it to the Arduino analog input pin.
 
 ## (ii) Electrode Placement
+**Electrode Placement for ECG**
+I had previously learned an electrode configuration for ECG in which the two working electrodes were placed below each clavicle and the third electrode was grounded on the hip bone. However, this setup quickly failed for this work since this resulted in the electrodes running in the same direction as the pectoral muscle fibers. This led to inflation of the T wave which not only led to a incorrectly shaped signal but also incorrect peak detection in the QRS-gating. 
+The new electrode placement I determined is the right side electrode in the same place as before (below the right clavicle) but a change in the position of the left electrode. The left electrode should be roughly in the V5 region as to not be on the pectoral muscle or run laterally with the direction of the muscle fibers. Additionally, the ground electrode would be placed at the bottom of the right rib cage instead of all the way below by the hip.
+
+**Electrode Placement for EMG**
+Originally, I placed the 
 
 ## (iii) Signal Acquisition & Code Changes
 
