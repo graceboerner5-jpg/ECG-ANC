@@ -11,8 +11,8 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-url: https://graceboerner5-jpg.github.io/heart-monitor-redesign
+url: https://graceboerner5-jpg.github.io/ECG-ANC
 
 aux_links:
-  "GitHub Repository": https://github.com/graceboerner5-jpg/heart-monitor-redesign
+  "GitHub Repository": https://github.com/graceboerner5-jpg/ECG-ANC
 footer_content: "Grace Boerner | Biomedical Engineering Student at Georgia Tech" 
