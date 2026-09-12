@@ -5,6 +5,6 @@ nav_order: 1
 ---
 # **Home**
 
-Welcome! This project investigates adaptive noise cancellation algorithms developed to overcome a significant limitation in cardiac monitoring. This critical limitation reduces the accuracy of heart monitor signals during exercise since severe motion artifacts may be present. 
+Welcome! This project investigates adaptive noise cancellation algorithms developed to overcome a significant limitation in cardiac monitoring. This critical limitation reduces the accuracy of heart monitor signals during exercise or movement since severe motion artifacts may be present. 
 
 By developing and validating an adaptive filter (LMS/NLMS) that utilizes a secondary electromyography (EMG) reference channel, it is possible to isolate true cardiac activity (ECG) from muscle interference. Explore the tabs on the left to see my detailed documentation on everything from physiological signal modeling and my adaptive filter algorithm to experimental validation for ambulatory monitoring devices. 
