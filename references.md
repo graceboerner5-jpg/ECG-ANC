@@ -3,7 +3,7 @@ title: References
 layout: home
 nav_order: 6
 ---
-# References
+# **References**
 
 
 [1] J. Nikolic-Popovic and R. Goubran, “Impact of motion artifacts on heart rate variability measurements and classification performance,” in 2013 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Gatineau, QC, Canada, 2013, pp. 156–159, doi: 10.1109/MeMeA.2013.6549726.
