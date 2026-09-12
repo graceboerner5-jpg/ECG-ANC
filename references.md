@@ -5,6 +5,7 @@ nav_order: 6
 ---
 # References
 
+
 [1] J. Nikolic-Popovic and R. Goubran, “Impact of motion artifacts on heart rate variability measurements and classification performance,” in 2013 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Gatineau, QC, Canada, 2013, pp. 156–159, doi: 10.1109/MeMeA.2013.6549726.
 
 [2] A. Prabakaran and E. Rufus, “Review on the wearable health-care monitoring system with robust motion artifacts reduction techniques,” Sensor Review, vol. 42, no. 1, pp. 19–38, 2022, doi: 10.1108/SR-05-2021-0150.
