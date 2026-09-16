@@ -39,7 +39,7 @@ I had previously learned an electrode configuration for ECG in which the two wor
 The new electrode placement I determined is the right side electrode in the same place as before (below the right clavicle) but a change in the position of the left electrode. The left electrode should be roughly in the V5 region as to not be on the pectoral muscle or run laterally with the direction of the muscle fibers. Additionally, the ground electrode would be placed at the bottom of the right rib cage instead of all the way below by the hip.
 
 **Electrode Placement for EMG**
-Originally, I placed the 
+Originally, I placed the electrodes horizontally to align with the sternal head of the pectoralis major muscle fibers, but my electrodes were actually placed higher than the sternal head. Because the best electrical signal conduction occurs when electrodes are in the same direction as the muscle fibers, this configuration didn't work well. To adjust, I then placed the electrodes running diagonally once I found out they were actually on the clavicular head of the pectoralis major. This yielded a much better resulting signal.
 
 ## (iii) Signal Acquisition & Code Changes
 
