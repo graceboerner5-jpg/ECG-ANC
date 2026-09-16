@@ -1,4 +1,3 @@
-<img width="2094" height="1647" alt="image" src="https://github.com/user-attachments/assets/b8a9acda-7d3e-4909-a473-960ea5de0b34" />---
 title: Validation & Testing
 layout: home
 nav_order: 5
