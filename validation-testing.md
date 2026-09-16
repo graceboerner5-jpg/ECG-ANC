@@ -1,4 +1,4 @@
----
+<img width="2094" height="1647" alt="image" src="https://github.com/user-attachments/assets/b8a9acda-7d3e-4909-a473-960ea5de0b34" />---
 title: Validation & Testing
 layout: home
 nav_order: 5
@@ -12,7 +12,7 @@ nav_order: 5
 
 A bioamplifier circuit and Arduino Uno were borrowed from the Georgia Tech Library for obtaining the experimental ECG and sEMG signals. The board provided 5V power and analog-to-digital conversion at 1200 Hz. Electrode connections were made using alligator clips with Bio(0)- and Bio(0)+ carrying the ECG signal and Bio(1)- and Bio(1)+ carrying the sEMG reference signal. The two channels simultaneously recorded both signals allowing for adaptive noise cancellation. 
 
-[images of schematic and circuit]
+<img src="./circuit_schematic.png" alt="circuit schematic" width="60%">
 Schematic provided by Georgia Tech BMED 3110.
 
 **AD623 Instrumentation Amplifier - Stage (1)**
